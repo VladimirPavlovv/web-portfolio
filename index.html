@@ -38,12 +38,12 @@
             </div>
 
             <div id="play-game">
-                <button onclick="playGame()">Play???</button>
+                <button onclick="playGame()">Click to Customize</button>
             </div>
             <div style="display: none;" class="color-div">
-                <h4>Pick color</h4>
+                <h4>Choose a color:</h4>
                 <p style="display: none;">Well... Not the best design I've seen.</p>
-                <input type="color" id="color-picker" onchange="changeColor()" value="0084ff">
+                <input type="color" id="color-picker" onchange="changeColor()" value="#0084ff">
                 <button style="display: none;" onclick="resetColor()">Reset</button>
             </div>
         </section>
@@ -56,6 +56,8 @@
                         <th>Area</th>
                         <th>Technologies</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>Web</td>
                         <td>HTML | CSS | JavaScript</td>
@@ -70,13 +72,13 @@
                     </tr>
                     <tr>
                         <td>Cybersecurity</td>
-                        <td>Network protocols(TCP/IP, HTTP, HTTPS) | Basic security concepts</td>
+                        <td>Network protocols (TCP/IP, HTTP, HTTPS) | Basic security concepts | Kali Linux</td>
                     </tr>
                     <tr>
                         <td>Tools</td>
                         <td>Git | GitHub | MS Office</td>
                     </tr>
-                </thead>
+                </tbody>
             </table>
         </section>
 
@@ -164,7 +166,7 @@
         </section>
     </main>
     <footer>
-        <p>By <a href="https://www.linkedin.com/in/vladimir-pavlov-0126b7368/">Vladimir Pavlov</a> repo on <a href="https://github.com/VladimirPavlovv">GitHub</a></p>
+        <p>By <a target="_blank" href="https://www.linkedin.com/in/vladimir-pavlov-0126b7368/">Vladimir Pavlov</a> see the repo on <a target="_blank" href="https://github.com/VladimirPavlovv">GitHub</a></p>
     </footer>
     <script>
         const body = document.querySelector('body')
